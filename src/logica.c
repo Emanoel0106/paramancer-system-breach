@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <math.h>
 
 static void inicializarSeed(void)
 {
@@ -52,4 +53,27 @@ int sortearPergunta()
 
     int pergunta_sorteada = (rand() % total_linhas) + 1;
     return pergunta_sorteada;
+}
+
+float media(float x[], int n)
+{
+
+    float soma = 0.0;
+
+    if (n <= 0)
+    {
+        return 0.0;
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        soma += x[i];
+    }
+
+    return soma / n;
+}
+
+float desvio_padrao(float conjunto[], int total_elementos)
+{
+    float media_aritmetica = media(conjunto, total_elementos);
 }
