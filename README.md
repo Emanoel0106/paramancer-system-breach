@@ -37,6 +37,8 @@ Para acessar a biblioteca utilizada e implementá-la em seus projetos, basta cli
 
 >*O repositório original possui termos de uso descritos no arquivo **LICENSE**. Leia-o com atenção antes de utilizar a biblioteca.*
 
+## Product Backlog - Jira's Board
+
 ![Descrição da imagem](./assets/backlog.png)
 
 ![Descrição da imagem](./assets/quadro.png)   
@@ -53,6 +55,3 @@ Alternativa (lista explicita de arquivos):
 gcc -std=c11 -Wall -Wextra -o luckyguess.exe main.c ui_menu.c jogo.c analise.c historico.c perguntas.c sorteio.c text_utils.c
 ```
 
-## Updates futuras
-
-Implementação de outras biblioteca gráfica **[raygui](https://github.com/raysan5/raygui)**
